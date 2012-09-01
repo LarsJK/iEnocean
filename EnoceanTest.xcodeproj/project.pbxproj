@@ -38,21 +38,21 @@
 		46BC50981598F0D7003F24DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		46BC509A1598F0D7003F24DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		46BC509C1598F0D7003F24DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		46BC50A01598F0D7003F24DB /* EnoceanTest-Info.plist */ = {isa = PBXFileReference; path = "EnoceanTest-Info.plist"; sourceTree = "<group>"; };
+		46BC50A01598F0D7003F24DB /* EnoceanTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EnoceanTest-Info.plist"; sourceTree = "<group>"; };
 		46BC50A21598F0D7003F24DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46BC50A41598F0D7003F24DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		46BC50A61598F0D8003F24DB /* EnoceanTest-Prefix.pch */ = {isa = PBXFileReference; path = "EnoceanTest-Prefix.pch"; sourceTree = "<group>"; };
-		46BC50A71598F0D8003F24DB /* LJKAppDelegate.h */ = {isa = PBXFileReference; path = LJKAppDelegate.h; sourceTree = "<group>"; };
+		46BC50A61598F0D8003F24DB /* EnoceanTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EnoceanTest-Prefix.pch"; sourceTree = "<group>"; };
+		46BC50A71598F0D8003F24DB /* LJKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJKAppDelegate.h; sourceTree = "<group>"; };
 		46BC50A81598F0D8003F24DB /* LJKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJKAppDelegate.m; sourceTree = "<group>"; };
 		46BC50AB1598F0D8003F24DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		46BC50AE1598F0D8003F24DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		46BC50B01598F0D8003F24DB /* LJKViewController.h */ = {isa = PBXFileReference; path = LJKViewController.h; sourceTree = "<group>"; };
+		46BC50B01598F0D8003F24DB /* LJKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJKViewController.h; sourceTree = "<group>"; };
 		46BC50B11598F0D8003F24DB /* LJKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJKViewController.m; sourceTree = "<group>"; };
 		46BC50B81598F0D8003F24DB /* EnoceanTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnoceanTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BC50B91598F0D8003F24DB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		46BC50C11598F0D8003F24DB /* EnoceanTestTests-Info.plist */ = {isa = PBXFileReference; path = "EnoceanTestTests-Info.plist"; sourceTree = "<group>"; };
+		46BC50C11598F0D8003F24DB /* EnoceanTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EnoceanTestTests-Info.plist"; sourceTree = "<group>"; };
 		46BC50C31598F0D8003F24DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		46BC50C51598F0D8003F24DB /* EnoceanTestTests.h */ = {isa = PBXFileReference; path = EnoceanTestTests.h; sourceTree = "<group>"; };
+		46BC50C51598F0D8003F24DB /* EnoceanTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnoceanTestTests.h; sourceTree = "<group>"; };
 		46BC50C61598F0D8003F24DB /* EnoceanTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnoceanTestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -444,6 +444,7 @@
 				46BC50CC1598F0D8003F24DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46BC50CD1598F0D8003F24DB /* Build configuration list for PBXNativeTarget "EnoceanTestTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +453,7 @@
 				46BC50CF1598F0D8003F24DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
